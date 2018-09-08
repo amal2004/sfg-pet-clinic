@@ -30,4 +30,12 @@ public class OwnerController {
         set.forEach(System.out::println);
         return "owners/index";
     }
+
+
+    @RequestMapping("/find")
+    public String findOwners(){
+        return "notimplemented";
+    }
+
+
 }
